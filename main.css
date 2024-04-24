@@ -1,0 +1,63 @@
+@import url("styles/reset.css");
+
+:root{
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+   --cor-de-letra:#464646;
+}
+
+body {
+    background-color: var(--cor-de-fundo) ;
+    line-height: 1;
+    color: var(--cor-de-letra);
+    font-family: "Noto Serif", serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: var(--cor-de-link);
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    /* Menú */
+    
+    /*title*/
+    
+    /*Skills*/
+    
+    /*Hobbies*/
+    
+    /*Formación Académica*/
+    
+    /*Experiencia Profesional*/
+    
+    }
+
+    /*DESKTOP*/
+@media (min-width: 1440px) {
+
+    /*Menu*/
+    
+    /*Titulo*/
+    
+    /*Sección sobre mi*/
+    
+    /*Skills*/
+    
+    /*Hobbies*/
+     
+    /*Formación Académica*/
+    
+    /*Experiencia Profesional*/
+    
+     /*Contacto*/
+    
+    /*Footer*/
+    
+    }
