@@ -1,9 +1,9 @@
 @import url("styles/reset.css");
 
 :root{
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
-   --cor-de-letra:#464646;
+   --cor-de-fundo: #f3dbc3;
+   --cor-de-link: #ffffff;
+   --cor-de-letra:#804000;
 }
 
 body {
