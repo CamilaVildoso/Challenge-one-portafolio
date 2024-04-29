@@ -1,8 +1,8 @@
 @import url("styles/reset.css");
+@import url("styles/Menu.css");
 
 :root{
    --cor-de-fundo: #f3dbc3;
-   --cor-de-link: #ffffff;
    --cor-de-letra:#804000;
 }
 
@@ -11,6 +11,11 @@ body {
     line-height: 1;
     color: var(--cor-de-letra);
     font-family: "Noto Serif", serif;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    box-sizing: border-box;
 }
 
 main{
@@ -19,7 +24,7 @@ main{
 }
 
 a{
-    color: var(--cor-de-link);
+    color: var(--cor-de-letra);
 }
 
 /*Tablet*/
