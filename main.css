@@ -1,20 +1,21 @@
 @import url("styles/reset.css");
 @import url("styles/Menu.css");
+@import url("styles/Title.css");
 
 :root{
    --cor-de-fundo: #f3dbc3;
-   --cor-de-letra:#804000;
+   --cor-de-letra:#7e460d;
 }
 
 body {
     background-color: var(--cor-de-fundo) ;
-    line-height: 1;
     color: var(--cor-de-letra);
     font-family: "Noto Serif", serif;
     width: 100%;
     height: 100vh;
     overflow: auto;
-    font-size: 14px;
+    font-size: 12px;
+    position: relative;
     box-sizing: border-box;
 }
 
@@ -29,6 +30,9 @@ a{
 
 /*Tablet*/
 @media (min-width: 768px) {
+    body {
+        height: 100vh;
+    }
 
     /* Menú */
     
@@ -48,7 +52,27 @@ a{
 @media (min-width: 1440px) {
 
     /*Menu*/
-    
+    .menu{
+        width: auto;
+        justify-content: space-around;
+        position: fixed;
+        width: 100%;
+    }
+    .menu__list{
+        display: inline-flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .menu__list:nth-of-type(1) li:nth-child(6) a {
+        font-weight: bold;
+    }
+
+    .menu__list__item__contato{
+        display: none;
+    }
+
+
     /*Titulo*/
     
     /*Sección sobre mi*/
