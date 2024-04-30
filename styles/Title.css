@@ -1,3 +1,45 @@
-.title{
+.title__div{
+    display: block;
+    padding: 15px 12px 15px 12px;
+}
+
+.profile{
+    height: 98px;
+    width: 98px;
+}
+
+.title__container{
+    margin-top: 8px;
+}
+
+.title__bio{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.title__subsection{
+    text-align: left;
+}
+
+.social-links{
+    justify-content: center;
     display: flex;
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.social-links a{
+    transition: background 0.2s;
+    border-radius: 40%;
+    padding: 5px;
+
+}
+
+.social-links a:hover{
+    background-color: burlywood;
+}
+
+.social-links img{
+    width: 24px;
 }
