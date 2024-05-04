@@ -1,6 +1,7 @@
 @import url("styles/reset.css");
 @import url("styles/Menu.css");
 @import url("styles/Title.css");
+@import url("styles/SobreMi.css");
 
 :root{
    --cor-de-fundo: #f3dbc3;
@@ -76,7 +77,7 @@ a{
     }
 
     /*DESKTOP*/
-@media (min-width: 1440px) {
+@media (min-width: 1240px) {
 
     /*Menu*/
     .menu{
@@ -109,12 +110,12 @@ a{
     }
 
     .title__container{
-        font-size: 22px;
+        font-size: 16px;
         margin: 30px 0px 30px 0px;
     }
 
     .title__bio{
-        font-size: 35px;
+        font-size: 30px;
         margin-bottom: 20px;
     }
 
