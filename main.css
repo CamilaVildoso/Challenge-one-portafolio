@@ -2,7 +2,8 @@
 @import url("styles/Menu.css");
 @import url("styles/Title.css");
 @import url("styles/SobreMi.css");
-@import url(styles/Skills.css);
+@import url("styles/Skills.css");
+@import url("styles/hobbies.css");
 
 :root{
    --cor-de-fundo: #f3dbc3;
@@ -87,7 +88,6 @@ a{
         margin-right: 40px;
     }
 
-    /*Skills*/
     
     /*Hobbies*/
     
@@ -165,6 +165,36 @@ a{
     }
     
     /*Hobbies*/
+    .hobbies_container{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        min-height: 50vh;
+    }
+
+    .hobbies{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 500px;
+    }
+
+    .hobbies__title{
+        font-size: 20px;
+        
+    }
+
+    .hobbies__line{
+        height: 400px;
+        width: auto;
+        gap: 80px;
+    }
+
+    .hobbies__box img {	
+        width: 90px;
+    }
      
     /*Formación Académica*/
     

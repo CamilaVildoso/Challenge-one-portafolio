@@ -1,25 +1,19 @@
-
-.skills__img{
-    flex-grow: 1;
-}
-
 .skills{
     background-color: antiquewhite;
+    margin-top: 20px;
 }
 
 .skills__line{
     display: flex;
     justify-content: space-between;
-    margin: 30px 0px 30px 0px;
-    padding: 10px 0px 10px 0px;
 }
 
 .skills__line {
-    animation: marquee 20s linear infinite; 
+    animation: marquee 30s linear infinite; 
 }
   
 .skills__box {
-    animation: slide 20s linear infinite; 
+    animation: slide 30s linear infinite; 
 }
 
 .skills__box ul {
@@ -29,10 +23,10 @@
 }
 
 .skills__box img {
+    margin-top: 5px;
     width: 30px;
     margin-bottom: 5px;
 }
-
 
 @keyframes marquee {
     0% { transform: translateX(100%); } 
@@ -56,4 +50,5 @@
 .skills__box:hover img{
     transform: scale(1.2);
 }
+
 
