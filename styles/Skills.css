@@ -38,17 +38,4 @@
     100% { transform: translateX(0); } 
 }
 
-.skills__line:hover {
-    animation-play-state: paused;
-}
-
-.skills__box:hover {
-    animation-play-state: paused;
-    text-shadow: 0 0 5px #7e460d; 
-}
-
-.skills__box:hover img{
-    transform: scale(1.2);
-}
-
 

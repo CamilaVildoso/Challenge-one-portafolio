@@ -3,11 +3,13 @@
 @import url("styles/Title.css");
 @import url("styles/SobreMi.css");
 @import url("styles/Skills.css");
-@import url("styles/hobbies.css");
+@import url("styles/Hobbies.css");
+@import url("styles/Formacion.css");
 
 :root{
    --cor-de-fundo: #f3dbc3;
    --cor-de-letra:#7e460d;
+   --cor-de-fundo-oscuro: rgb(216, 172, 115);
 }
 
 body {
@@ -88,8 +90,29 @@ a{
         margin-right: 40px;
     }
 
-    
     /*Hobbies*/
+
+    .academic{
+        height: 500px;
+    }
+
+    .academic__courses{
+        align-self: center;
+    }
+
+    .academic__courses__list{
+        padding: 10px 5px 10px 10px;
+        width: 400px;
+    }
+
+    .academic__courses__box{
+        gap: 20px;
+    }
+
+    .academic__courses__box img {	
+        width: 100px;
+    }
+
     
     /*Formación Académica*/
     
@@ -105,6 +128,7 @@ a{
         width: auto;
         position: fixed;
         width: 100%;
+        z-index: 1000; /*me ayuda con el problema de superposicion de otros elementos*/
     }
     .menu__list{
         display: inline-flex;
@@ -166,7 +190,7 @@ a{
     
     /*Hobbies*/
     .hobbies_container{
-        margin-top: 20px;
+        margin: 30px 0px 40px 0px;
         display: flex;
         justify-content: center;
         min-height: 50vh;
@@ -182,7 +206,7 @@ a{
     }
 
     .hobbies__title{
-        font-size: 20px;
+        font-size: 30px;
         
     }
 
@@ -197,7 +221,43 @@ a{
     }
      
     /*Formación Académica*/
-    
+    .academic{
+        padding: 40px 10px 10px 10px;
+        margin: 30px 0px 30px 0px;
+        justify-content: flex-start;
+        height: 450px;
+        background: linear-gradient(to bottom, rgb(216, 172, 115) 65%, #f3dbc3 35%);
+    }
+
+    .academic__title{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .academic__courses{
+        flex-direction: row;
+        gap: 70px;
+    }
+
+    .academic__courses__box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .academic__courses__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+    }
+
+    .academic__courses__item__subtitle{
+        margin: 10px 5px 10px 5px;
+
+    }
+
     /*Experiencia Profesional*/
     
      /*Contacto*/
