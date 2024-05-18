@@ -17,7 +17,7 @@
 }
 
 body {
-    cursor: url(img/galleta.png);
+    cursor: url(./img/galleta.png);
     background-color: var(--cor-de-fundo) ;
     color: var(--cor-de-letra);
     font-family: "Raleway", sans-serif;
