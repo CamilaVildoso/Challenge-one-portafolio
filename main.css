@@ -1,10 +1,14 @@
-@import url("styles/reset.css");
-@import url("styles/Menu.css");
-@import url("styles/Title.css");
-@import url("styles/SobreMi.css");
-@import url("styles/Skills.css");
-@import url("styles/Hobbies.css");
-@import url("styles/Formacion.css");
+@import url("./styles/reset.css");
+@import url("./styles/Menu.css");
+@import url("./styles/Title.css");
+@import url("./styles/SobreMi.css");
+@import url("./styles/Skills.css");
+@import url("./styles/Hobbies.css");
+@import url("./styles/Formacion.css");
+@import url("./styles/Proyectos.css");
+@import url("./styles/Contacto.css");
+@import url("./styles/Footer.css");
+
 
 :root{
    --cor-de-fundo: #f3dbc3;
@@ -113,10 +117,75 @@ a{
         width: 100px;
     }
 
-    
-    /*Formación Académica*/
-    
-    /*Experiencia Profesional*/
+    /*PROYECTOS*/
+    .experience{
+        padding: 15px;
+        height: 1100px;
+    }
+
+    .experience__section__title{
+    font-size: 16px;
+    }
+
+    .experience__contenido{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:40px;
+        justify-content: center; 
+    }
+
+    .experiencie__box{
+        width: 500px;
+        height: 300px;
+    }
+
+    .experience__info{
+        width: 400px;
+        height: 250px;
+        gap: 18px;
+    }
+
+    .experience__title{
+        font-size: 30px;
+    }
+
+    .experience__description{
+        width: 250px;
+        height: 40px;
+        gap: 25px;
+    }
+
+    .experience__repo{
+        width: 120px;
+        height: 30px;
+    }
+
+    .experience__demo{
+        width: 120px;
+        height: 30px;
+    }
+
+    /*CONTACTO*/
+    .formcontato__contacto{
+        height: 400px;
+    }
+
+    .formcontato__text{
+        width: 500px;
+    }
+
+    .formcontato__img{
+        width: 300px;
+    }
+
+    .formcontato__form{
+        width: 450px;
+    }
+
+    .formcontato__botao{
+        align-self: center;
+        width: 200px;
+    }
     
     }
 
@@ -259,9 +328,85 @@ a{
     }
 
     /*Experiencia Profesional*/
-    
-     /*Contacto*/
-    
-    /*Footer*/
-    
+    .experience{
+        padding: 15px;
+        height: 900px;
     }
+
+    .experience__section__title{
+        font-size: 30px;
+    }
+
+    .experience__contenido{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:40px;
+        justify-content: center; 
+    }
+
+    .experiencie__box{
+        width: 600px;
+        height: 400px;
+    }
+
+    .experience__info{
+        width: 400px;
+        height: 250px;
+        gap: 18px;
+    }
+
+    .experience__title{
+        font-size: 40px;
+    }
+
+    .experience__description{
+        width: 250px;
+        height: 40px;
+        gap: 25px;
+    }
+
+    .experience__repo{
+        width: 120px;
+        height: 30px;
+    }
+
+    .experience__demo{
+        width: 120px;
+        height: 30px;
+    }
+
+    /*Contacto*/
+    .formcontato__contacto{
+        justify-content: center;
+    }
+
+    .formcontato__title{
+        font-size: 30px;
+    }
+
+    .formcontato__text{
+        margin-left: 100px;
+        width: 700px;
+    }
+
+    .formcontato__img{
+        width: 300px;
+        margin-left: 60px;
+    }
+
+    .formcontato__form{
+        width: 550px;
+    }
+
+    .formcontato__input{
+        height: 30px;
+    }
+
+    .formcontato__botao{
+        align-self: center;
+        height: 40px;
+        width: 200px;
+    }
+    
+    
+}

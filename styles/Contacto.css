@@ -1,0 +1,57 @@
+.formcontato__contacto{
+    display: flex;
+    height: 330px;
+    align-items: center;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    width: 180px;
+}
+
+.formcontato__title{
+    font-weight: bold;
+    text-shadow: 0 0 3.5px #7e460d;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+}
+
+.formcontato__input{
+    display: block;
+    margin: 0 0 10px;
+    width: 90%;
+}
+
+.formcontato__textarea{
+    display: block;
+    margin: 0 0 20px;
+    width: 90%;
+}
+
+.formcontato__botao{
+    width: 90px;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(216, 172, 115);
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.formcontato__botao:hover{
+    background-color: #7e460d;
+    transform: scale(1.2);
+}
+
+.formcontato__img{
+    width: 160px;
+}
