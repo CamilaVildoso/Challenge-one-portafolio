@@ -5,37 +5,25 @@
 
 .skills__line{
     display: flex;
-    justify-content: space-between;
-}
-
-.skills__line {
-    animation: marquee 30s linear infinite; 
-}
-  
-.skills__box {
-    animation: slide 30s linear infinite; 
+    justify-content: space-around;
 }
 
 .skills__box ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .skills__box img {
-    margin-top: 5px;
+    height: 60px;
     width: 30px;
     margin-bottom: 5px;
 }
 
-@keyframes marquee {
-    0% { transform: translateX(100%); } 
-    100% { transform: translateX(-100%); }
-}
-
-@keyframes slide {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(0); } 
+.skills__box ul:hover{
+    transform: scale(1.2);
 }
 
 
