@@ -255,6 +255,7 @@ a{
     /*Skills*/
     .skills__box img {
         width: 50px;
+        height: 65px;
     }
     
     /*Hobbies*/
