@@ -1,4 +1,4 @@
-# Challenge ONE | Front End - Portafolio Camila 🚀
+# Front End - Portafolio Camila 🚀
 
 <p align="center"> Primer challenge en la especialización de Front-end de Alura latam</p>
 
